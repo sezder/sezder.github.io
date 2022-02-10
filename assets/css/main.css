@@ -34,8 +34,8 @@ body {
   line-height: 1;
 }
 
-ol li,
-ul li {
+ol,
+ul{
   list-style: none;
 }
 
@@ -1739,11 +1739,62 @@ article#intro {
   flex-direction: column;
 }
 
-
 #about_btn_div {
   width: fit-content;
   display: flex;
   align-self: center;
   justify-content: space-between;
   min-width: 50%;
+}
+
+.skills_div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 10px 5px;
+  border-radius: 4px;
+}
+
+.skills_div img {
+  height: 55px;
+  min-width: 55px;
+  padding: 3px;
+}
+
+#github_stats_div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+#github_stats_div h2 {
+  margin: 0;
+  align-self: flex-start;
+}
+
+/* #langs {
+  width: 495px;
+} */
+
+#github_stats_div img {
+  margin-top: 10px;
+  width: 560px;
+}
+
+.proj_img_div {
+  background-color: rgba(161, 159, 159, 0.2);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: space-evenly;
+  justify-content: space-evenly;
+  padding: 20px 10px;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+.proj_img_div img {
+  height: 130px;
 }
