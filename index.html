@@ -25,13 +25,18 @@
           <span class="icon fa-gem"></span>
         </div>
         <div class="content">
-          <div class="inner">
-            <h1>Shannon Zander | Software Engineer</h1>
-            <img
-              id="profile-photo"
-              src="https://avatars.githubusercontent.com/u/84882854?v=4"
-              alt="Photo of Dev Here"
-            />
+          <div class="inner" id="main_upper">
+            <div class="profile_title_photo">
+              <img
+                id="profile-photo"
+                src="https://avatars.githubusercontent.com/u/84882854?v=4"
+                alt="Photo of Dev Here"
+              />
+              <div>
+                <h1>Shannon Zander</h1>
+                <h2>Software Engineer</h2>
+              </div>
+            </div>
             <p>
               Software engineer/linguistics nerd passionate about lifelong
               learning. Ask me about why I think Classics majors make phenomenal
@@ -60,11 +65,6 @@
               src="https://source.unsplash.com/fsL1HenYK8A"
               alt="Black and white photo of a city alley."
           /></span>
-          <img
-            id="profile-photo"
-            src="https://avatars.githubusercontent.com/u/84882854?v=4"
-            alt="Photo of Dev Here"
-          />
           <h2>How I first fell in love with programming</h2>
           <p>
             Kitten after kitten, each one was snatched out from under me. No
@@ -115,8 +115,12 @@
               programmers.
             </li>
           </ul>
-          <a href="#contact"><button>Get in Touch</button></a>
-          <a href="#contact"><button>Resume</button></a>
+          <div id="about_btn_div">
+            <a href="#contact"><button>Get in Touch</button></a>
+            <a href="/assets/pdfs/zanderShannonResume.pdf" target="_blank"
+              ><button>Resume</button></a
+            >
+          </div>
         </article>
 
         <!-- Work -->
@@ -891,7 +895,8 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
       <!-- Footer -->
       <footer id="footer">
         <p class="copyright">
-          &copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.
+          &copy; Shannon Zander 2022. Design:
+          <a href="https://html5up.net">HTML5 UP</a>.
         </p>
       </footer>
     </div>
