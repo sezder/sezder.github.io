@@ -35,7 +35,7 @@ body {
 }
 
 ol,
-ul{
+ul {
   list-style: none;
 }
 
@@ -1797,4 +1797,28 @@ article#intro {
 }
 .proj_img_div img {
   height: 130px;
+}
+
+.project_header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+.project_header a {
+  border-bottom: hidden;
+}
+
+.project_header a h2 {
+  margin: 0;
+}
+.project_header a h2:hover {
+  border-bottom: dotted 1px rgba(255, 255, 255, 0.5);
+}
+
+.hl {
+  border-bottom: dotted 2px rgba(255, 255, 255, 0.5);
+  width: 100%;
+  padding: 0 1.5rem;
+  margin: 15px 0;
 }
