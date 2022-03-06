@@ -1141,7 +1141,7 @@ button {
   -webkit-transform: scale(1);
   -ms-transform: scale(1);
   transform: scale(1);
-  -webkit-backface-visibility: hidden;
+  /* -webkit-backface-visibility: hidden; */
   position: fixed;
   top: 0;
   left: 0;
