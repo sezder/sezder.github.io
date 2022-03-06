@@ -1822,3 +1822,7 @@ article#intro {
   padding: 0 1.5rem;
   margin: 15px 0;
 }
+
+#built_using {
+  margin-bottom: 10px;
+}
